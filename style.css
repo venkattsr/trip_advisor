@@ -1,0 +1,275 @@
+*{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: transparent;
+    
+    
+      font-family: "REM", sans-serif;
+      
+    }
+    
+    
+    .navbar{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        wid
+    }
+    
+    .navbar__left img{
+        position: absolute;
+        justify-content: end;
+        width: 50px;
+        display: flex;
+        top: 15px;
+        
+        
+    
+    }
+    .navbar__center{
+      
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    
+    
+    .navbar__center p:hover{
+        background-color: rgb(247, 245, 245);
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .navbar__right{
+        display: flex;
+    }
+    .navbar__right p{
+        display: flex;
+        align-items: center;
+    }
+    .navbar__right_p2{
+        padding: 10px;
+        border: black solid 1px;
+        background-color: black;
+        color: white;
+        border-radius: 30px;
+    }
+    .center__title h1{
+        justify-content: center;
+        display: flex;
+    }
+    .center__title__categories{ 
+        display: flex;
+        justify-content: center;
+        gap: 10px  ;
+        margin-bottom: 10px;
+    }
+    .center__title__categories h3:hover{
+        border-bottom: 2px solid black;
+        width: fit-content;
+        margin-bottom: 10px;
+    }
+    .center__title__categories img{
+        display: flex;
+    }
+    .search__bar{
+        width: 50%; 
+        display: flex;
+        border: 1px black solid;
+        border-radius: 20px;
+        margin: auto;
+        
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 10px;
+        z-index: 2;
+        background-color: white;
+    
+    }
+    .search__bar p{
+        padding: 10px;
+        background: rgb(18, 237, 157);
+        border-radius: 20px;
+        
+    }
+    
+    .search__bar input{
+        width: 100%;
+        border:none;
+        font-size: larger;
+        outline: none;
+    }
+    .center_image_box{
+        padding: 10px;
+        display: flex;
+        margin-top: 20px;
+    }
+    .center__image{
+        position: relative;
+    
+        height: 500px;
+        width: 80%
+        margin: auto;
+        border-radius: 20px ;
+        margin-top: 50px  ;
+        background-color:#D8D4FB;
+        align-items:center;
+       
+    }
+    .center__image img{
+    
+        margin-left: 500px;
+        margin-top: 200px;
+        height: 300px;
+        width: 300px;
+    }
+    .center__image__text{
+        color: #301D49;
+        width: 350px;
+        left: 100px;
+    
+        position: absolute;
+        top: 50px;
+        
+    }
+    .center__image__text_p1{
+        
+        padding: 10px;
+        border-radius: 10px     ;
+    }
+    .center__image__text h1{
+        font-size: 50px;
+    }
+    .center__image__text h4{
+        font-size: 25px;
+    }
+    .center__image__text h5{
+        width: fit-content;
+        height: fit-content;
+        padding: 10px;
+        border-radius: 30px;
+        background-color: #301D49;
+        color: white;
+    }
+    .center__image__text h5{
+        margin-left: 20px;
+        left: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .award__winning{
+      flex-grow: 1;
+      flex-basis: 20%;
+    
+    }
+    .award__winning-title{
+    padding: 20px;    
+    }
+    .award__winning-title h4{
+        font-weight: 300;
+    }
+    .award__winning__container{
+        flex-grow: 1;
+        width: fit-content;
+        position: relative;
+       display: flex;
+        margin-top: 10px;
+        flex-basis: 100%
+    }
+    .title__card img{
+        width: 240.66px;
+        height: 240.66px;
+        border-radius: 35px;
+    }
+    .title__card{
+        flex-basis: 20%;
+    }
+    .title__card h2{
+        color: white;
+        max-width: 200px;
+        margin-left: 10px;
+        margin-bottom: 3px;
+        position: absolute;
+        bottom: 20px;
+        word-wrap: break-word;
+       font-weight: 400px;
+    }
+    .title__card__t1{
+        bottom: 10px;
+    }
+    .title__card p{
+        bottom: 10px;
+    }
+    .flutter{
+        background-color: #FAF1ED;
+        display: flex;
+        position: relative;
+        border-radius: 15px;
+    }
+    .flutter{
+        font-weight: lighter;
+        position: relative;
+        
+    }
+    
+    .flutter__followus{
+        position: absolute;
+        top: 150px;
+        right: 80px;
+    }
+    .flutter p:hover{
+        border-bottom: 1px black solid;
+        width: fit-content;
+    }
+    @media screen and (max-width:600px){
+        body{
+            font-size: 10px;
+        }
+    }
+    /* Add this CSS for responsive layout */
+    @media only screen and (max-width: 600px) {
+        .award__winning {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .award__winning-title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .award__winning__container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .title__card {
+            width: 90%; /* Adjust the width as needed */
+            margin-bottom: 20px;
+        }
+    }
+    /* Add CSS for responsiveness */
+    @media only screen and (max-width: 600px) {
+        /* Adjust styles for smaller screens */
+        .center__title h1 {
+            font-size: 24px; /* Example: Reduce font size for smaller screens */
+        }
+        .search__bar {
+            width: 100%; /* Example: Make search bar full width on smaller screens */
+        }
+        .title__card img {
+            width: 100%; /* Example: Make award-winning images fill the container on smaller screens */
+        }
+        /* Add more responsive styles as needed */
+    }
+    
+    
+    
+    
+    
+        
